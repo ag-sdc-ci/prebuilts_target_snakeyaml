@@ -1,0 +1,26 @@
+// Auto-generated prebuilt Blueprint for external/snakeyaml
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.snakeyaml
+
+package {
+    default_applicable_licenses: ["external_snakeyaml_license"],
+}
+
+license {
+    name: "external_snakeyaml_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+        "SPDX-license-identifier-BSD",
+    ],
+    license_text: [
+        "LICENSE.txt",
+        "LICENSE",
+    ],
+}
+
+java_import {
+    name: "snakeyaml",
+    host_supported: true,
+    jars: ["share/snakeyaml/snakeyaml-1.32.jar"],
+    prefer: true,
+}

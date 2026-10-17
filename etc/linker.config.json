@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_snakeyaml-x86_64-v2.so",
+		    "libdummy_ext_snakeyaml.so",
+		    "libdummy_shared_snakeyaml-x86_64-v2.so",
+		    "libdummy_shared_snakeyaml.so"
+	],
+	"visible": true
+}
